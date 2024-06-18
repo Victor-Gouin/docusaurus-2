@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'À propos de Victor Gouin',
-    Svg: require('@site/static/img/undraw_profile.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Je suis Victor Gouin, étudiant en Bac+ spécialisé en administration
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'Compétences Techniques',
-    Svg: require('@site/static/img/undraw_coding.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Je maîtrise diverses technologies et outils, notamment la gestion des
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: 'Projets et Expériences',
-    Svg: require('@site/static/img/undraw_project.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         J'ai travaillé sur plusieurs projets académiques et professionnels
