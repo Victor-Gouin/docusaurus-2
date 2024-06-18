@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Je suis Victor Gouin, étudiant en Bac+ spécialisé en administration
+        Je suis Victor Gouin, étudiant en Bac+4 spécialisé en administration
         systèmes et réseaux. Passionné par la technologie et toujours à la
         recherche de solutions innovantes pour optimiser et sécuriser les
         infrastructures réseau.
