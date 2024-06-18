@@ -4,38 +4,44 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'À propos de Victor Gouin',
+    Svg: require('@site/static/img/undraw_profile.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Je suis Victor Gouin, étudiant en Bac+ spécialisé en administration
+        systèmes et réseaux. Passionné par la technologie et toujours à la
+        recherche de solutions innovantes pour optimiser et sécuriser les
+        infrastructures réseau.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Compétences Techniques',
+    Svg: require('@site/static/img/undraw_coding.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Je maîtrise diverses technologies et outils, notamment la gestion des
+        serveurs, la configuration des réseaux, et l'automatisation des tâches
+        administratives. Mon expertise comprend Linux, Windows Server, et
+        divers langages de scripting.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Projets et Expériences',
+    Svg: require('@site/static/img/undraw_project.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        J'ai travaillé sur plusieurs projets académiques et professionnels
+        visant à améliorer l'efficacité des systèmes informatiques. J'ai une
+        expérience pratique en déploiement de réseaux sécurisés et en gestion
+        de systèmes complexes.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
