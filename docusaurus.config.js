@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Victor Gouin',
   tagline: 'Dinosaurs are cool',
-  url: 'https://github.com/Totaagami',
+  url: 'https://github.com/Victor-Gouin',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -61,7 +61,7 @@ const config = {
             label: 'Documentations',
           },
           {
-            href: 'https://github.com/Totaagami/docusaurus-2',
+            href: 'https://github.com/Victor-Gouin/docusaurus-2',
             label: 'GitHub',
             position: 'right',
           },
