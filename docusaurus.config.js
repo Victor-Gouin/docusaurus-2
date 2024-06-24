@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentations Victor Gouin',
+  title: 'Victor Gouin',
   tagline: 'Dinosaurs are cool',
   url: 'https://github.com/Totaagami',
   baseUrl: '/',
