@@ -1,4 +1,4 @@
-# Documentation création autorité de certification sur Windows Server 2019 et demande signature Nginx OpenSSL
+# Création autorité de certification WServer 2019 et demande signature Nginx OpenSSL
 
 # Présentation de l'autorité de certification
 
