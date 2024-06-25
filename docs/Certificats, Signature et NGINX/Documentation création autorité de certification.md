@@ -1,10 +1,10 @@
 # Création autorité de certification WServer 2019 et demande signature Nginx OpenSSL
 
-# Présentation de l'autorité de certification
+## Présentation de l'autorité de certification
 
 Une autorité de certification (CA) est une entité qui émet des certificats numériques. Ces certificats sont utilisés pour établir une chaîne de confiance, permettant à des entités (comme des sites Web, des utilisateurs ou des programmes informatiques) de prouver leur identité les uns aux autres.
 
-# Procédure de création d'une autorité de certification sur Windows Server 2019
+## Procédure de création d'une autorité de certification sur Windows Server 2019
 
 1. Ouvrez le Gestionnaire de serveur sur votre Windows Server 2019.
 2. Dans le menu du Gestionnaire de serveur, sélectionnez "Ajouter des rôles et des fonctionnalités".
@@ -58,7 +58,7 @@ Cette commande crée une nouvelle demande de signature de certificat (CSR) et un
 
 1. Une fois cette commande exécutée, vous devriez avoir deux nouveaux fichiers : `cert.pem` et `cert.key`. Le fichier PEM est la demande de signature de certificat que vous soumettrez à votre autorité de certification (CA) pour obtenir un certificat signé.
 
-# Signature du certificat via une interface web
+## Signature du certificat via une interface web
 
 1. Ouvrez votre navigateur préféré et accédez à l'adresse de l'interface web de votre autorité de certification. Par exemple, si votre serveur s'appelle "monserveur", l'adresse serait "[http://monserveur/certsrv](http://monserveur/certsrv)".
 2. Sur la page d'accueil de l'interface web de l'autorité de certification, cliquez sur "Demander un certificat".
@@ -71,7 +71,7 @@ Cette commande crée une nouvelle demande de signature de certificat (CSR) et un
 1. Choisissez le type de certificat à émettre, généralement "Web Server", puis cliquez sur "Soumettre".
 2. Une fois la demande approuvée, vous devriez voir un lien pour télécharger le certificat signé. Cliquez sur "Télécharger le certificat" pour le sauvegarder sur votre ordinateur.
 
-# Installation de Nginx :
+## Installation de Nginx :
 
 Voici comment installer Nginx sur Ubuntu Server :
 
@@ -106,7 +106,7 @@ sudo systemctl status nginx
 
 Si Nginx a été installé et démarré correctement, le statut devrait indiquer "active (running)".
 
-# Importer le certificat signé dans Nginx
+## Importer le certificat signé dans Nginx
 
 Exemples de configuration : 
 
