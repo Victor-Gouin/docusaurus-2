@@ -54,7 +54,7 @@ cd /tmp/
 Téléchargez la dernière version de GLPI depuis internet avec la commande :
 
 ```bash
-sudo wget <https://github.com/glpi-project/glpi/releases/download/10.0.9/glpi-10.0.9.tgz>
+sudo wget https://github.com/glpi-project/glpi/releases/download/10.0.9/glpi-10.0.9.tgz
 
 ```
 
