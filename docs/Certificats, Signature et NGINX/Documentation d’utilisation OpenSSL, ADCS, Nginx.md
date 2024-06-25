@@ -1,6 +1,6 @@
 # Documentation d’utilisation OpenSSL, ADCS, Nginx
 
-# Guide utilisation OpenSSL
+## Guide utilisation OpenSSL
 
 Pour générer une demande de signature de certificat (CSR) avec OpenSSL en utilisant le script donné, suivez les étapes suivantes:
 
@@ -48,7 +48,7 @@ Cette commande crée une nouvelle demande de signature de certificat (CSR) et un
 
 ![Untitled](Documentation%20d%E2%80%99utilisation%20OpenSSL,%20ADCS,%20Nginx%20e6a5f9ff982640529e2c14d851293973/Untitled.png)
 
-# Signature du certificat via CERTSRV
+## Signature du certificat via CERTSRV
 
 1. Ouvrez votre navigateur préféré et accédez à l'adresse de l'interface web de votre autorité de certification. Par exemple, si votre serveur s'appelle "monserveur", l'adresse serait "[http://monserveur/certsrv](http://monserveur/certsrv)".
 2. Sur la page d'accueil de l'interface web de l'autorité de certification, cliquez sur "Demander un certificat".
@@ -64,7 +64,7 @@ Cette commande crée une nouvelle demande de signature de certificat (CSR) et un
 1. Choisissez le type de certificat à émettre, généralement "Web Server", puis cliquez sur "Soumettre".
 2. Une fois la demande approuvée, vous devriez voir un lien pour télécharger le certificat signé. Cliquez sur "Télécharger le certificat" pour le sauvegarder sur votre ordinateur.
 
-# Importer le certificat signé dans Nginx
+## Importer le certificat signé dans Nginx
 
 Il faut ensuite transférer son certificat signé vers le serveur en question. Je l’ai enregistré dans `/etc/ssl/certs/cert.cer` et j’ai transféré ma clé dans `/etc/ssl/private/cert.key` . Pour cela, il est possible de le transférer via `TFTP`. ou alors tout simplement de le copier et l’enregistrer dans un`nano` au chemin d’accès souhaité. 
 
