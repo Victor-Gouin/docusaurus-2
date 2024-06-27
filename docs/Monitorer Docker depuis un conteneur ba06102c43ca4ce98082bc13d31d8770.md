@@ -30,7 +30,7 @@ docker exec -it --user root zabbix-agent2 /bin/bash
 Ensuite, il faut créer le groupe docker dans le conteneur avec le meme GID : 
 
 ```bash
-addgroup — gid 281 docker
+addgroup -g 281 docker
 ```
 
 Il faut également créer le user zabbix dans le groupe docker : 
