@@ -28,7 +28,7 @@ volumes:
 
 ```
 
-Vous pouvez déployer ce service en exécutant la commande `docker-compose up` dans le même dossier que votre fichier docker-compose.
+Vous pouvez déployer ce service en exécutant la commande `docker-compose up -d` dans le même dossier que votre fichier docker-compose.
 
 # 
 
