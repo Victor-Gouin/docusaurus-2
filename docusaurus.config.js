@@ -9,7 +9,7 @@ const config = {
   title: 'Victor Gouin',
   tagline: 'Dinosaurs are cool',
   url: 'https://victor-gouin.github.io',
-  baseUrl: '/docusaurus-2/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
