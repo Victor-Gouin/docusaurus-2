@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Victor Gouin',
   tagline: 'Dinosaurs are cool',
-  url: 'https://github.com/Victor-Gouin',
-  baseUrl: '/',
+  url: 'https://victor-gouin.github.io',
+  baseUrl: '/docusaurus-2/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
